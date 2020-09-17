@@ -26,7 +26,7 @@ def lemm2(filename):
         l=[]
         for k in range(0,len(ftext[i])):
             l.append(ftext[i][k])
-            
+            #hello
             if ''.join(l) in ftext:
                 #print(ftext[i],'->',''.join(l))
                 if ''.join(l)!=ftext[i]:
